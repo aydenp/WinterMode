@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>When Winter Mode is enabled, notifications will alert you on both your Apple Watch and locked iPhone.</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>PSSwitchTableCell</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>defaults</key>
+			<string>dev.ayden.ios.tweak.wintermode</string>
+			<key>default</key>
+			<true/>
+			<key>PostNotification</key>
+			<string>dev.ayden.ios.tweak.wintermode.changed</string>
+		</dict>
+	</array>
+	<key>headerColour</key>
+	<string>0.161:0.173:0.212</string>
+	<key>tintColour</key>
+	<string>0.161:0.173:0.212</string>
+	<key>tintColour:dark</key>
+	<string>0.402:0.449:0.714</string>
+	<key>firstCopyrightYear</key>
+	<integer>2020</integer>
+	<key>showsDynasticBranding</key>
+	<false/>
+	<key>companyName</key>
+	<string>Ayden Panhuyzen</string>
+</dict>
+</plist>
