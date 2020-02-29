@@ -1,7 +1,7 @@
 Package: dev.ayden.ios.tweak.wintermode
 Name: Winter Mode
-Depends: mobilesubstrate, firmware (>= 13.0)
-Version: 1.0
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Receive notifications on both your locked iPhone and Apple Watch.
 Maintainer: Ayden Panhuyzen
