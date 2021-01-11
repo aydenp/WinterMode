@@ -16,7 +16,7 @@ WinterModeBridge_CFLAGS = -fobjc-arc
 include $(THEOS_MAKE_PATH)/tweak.mk
 
 export TWEAK_DISPLAY_NAME = "Winter Mode"
-SUBPROJECTS = DDSettings
+SUBPROJECTS = Settings-Stub
 
 include $(THEOS_MAKE_PATH)/aggregate.mk
 
